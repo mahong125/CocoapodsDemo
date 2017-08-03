@@ -13,7 +13,7 @@
 		CBD73C961F32B37500230C7F /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = CBD73C941F32B37500230C7F /* Main.storyboard */; };
 		CBD73C981F32B37500230C7F /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = CBD73C971F32B37500230C7F /* Assets.xcassets */; };
 		CBD73C9B1F32B37500230C7F /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = CBD73C991F32B37500230C7F /* LaunchScreen.storyboard */; };
-		CBD73CA51F32B3A000230C7F /* YBKit.m in Sources */ = {isa = PBXBuildFile; fileRef = CBD73CA41F32B3A000230C7F /* YBKit.m */; };
+		CBD73CA91F32BC8D00230C7F /* YBKit.m in Sources */ = {isa = PBXBuildFile; fileRef = CBD73CA81F32BC8D00230C7F /* YBKit.m */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
@@ -27,8 +27,8 @@
 		CBD73C971F32B37500230C7F /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
 		CBD73C9A1F32B37500230C7F /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
 		CBD73C9C1F32B37500230C7F /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
-		CBD73CA31F32B3A000230C7F /* YBKit.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = YBKit.h; sourceTree = "<group>"; };
-		CBD73CA41F32B3A000230C7F /* YBKit.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = YBKit.m; sourceTree = "<group>"; };
+		CBD73CA71F32BC8D00230C7F /* YBKit.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = YBKit.h; sourceTree = "<group>"; };
+		CBD73CA81F32BC8D00230C7F /* YBKit.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = YBKit.m; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -45,7 +45,6 @@
 		CBD73C7F1F32B37400230C7F = {
 			isa = PBXGroup;
 			children = (
-				CBD73CA21F32B39100230C7F /* YBKit */,
 				CBD73C8A1F32B37500230C7F /* CocoapodsDemo */,
 				CBD73C891F32B37500230C7F /* Products */,
 			);
@@ -62,6 +61,7 @@
 		CBD73C8A1F32B37500230C7F /* CocoapodsDemo */ = {
 			isa = PBXGroup;
 			children = (
+				CBD73CA61F32BC8D00230C7F /* YBKit */,
 				CBD73C8E1F32B37500230C7F /* AppDelegate.h */,
 				CBD73C8F1F32B37500230C7F /* AppDelegate.m */,
 				CBD73C911F32B37500230C7F /* ViewController.h */,
@@ -83,13 +83,13 @@
 			name = "Supporting Files";
 			sourceTree = "<group>";
 		};
-		CBD73CA21F32B39100230C7F /* YBKit */ = {
+		CBD73CA61F32BC8D00230C7F /* YBKit */ = {
 			isa = PBXGroup;
 			children = (
-				CBD73CA31F32B3A000230C7F /* YBKit.h */,
-				CBD73CA41F32B3A000230C7F /* YBKit.m */,
+				CBD73CA71F32BC8D00230C7F /* YBKit.h */,
+				CBD73CA81F32BC8D00230C7F /* YBKit.m */,
 			);
-			name = YBKit;
+			path = YBKit;
 			sourceTree = "<group>";
 		};
 /* End PBXGroup section */
@@ -165,7 +165,7 @@
 			buildActionMask = 2147483647;
 			files = (
 				CBD73C931F32B37500230C7F /* ViewController.m in Sources */,
-				CBD73CA51F32B3A000230C7F /* YBKit.m in Sources */,
+				CBD73CA91F32BC8D00230C7F /* YBKit.m in Sources */,
 				CBD73C901F32B37500230C7F /* AppDelegate.m in Sources */,
 				CBD73C8D1F32B37500230C7F /* main.m in Sources */,
 			);
